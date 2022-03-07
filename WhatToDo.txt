@@ -1,0 +1,7 @@
+Modif l'icone qui est trop "ecrasée"
+Faire un menu pour le contact + trouver quoi mettre 
+Pareil avec les logins
+Le CSS des lenu est frauduleux: copie coller du Css de l'acceuil avec un cadre en plus -> voir pour des eventuelles 
+Les menus le sont encore plus: meme code a chaque fois avec juste le nombre qui change KEKW
+
+ISSUE MAJEURE : Probleme d'affiche pouvant apparaitre selon la resolution de l'ecran -> cadre blanc en bas de page si format de l'ecran trop bas -> trouver une solution générale?
