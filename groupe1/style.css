@@ -7,11 +7,14 @@ body {
 
 a {
     color: orange;
-    text-transform: capitalize;
+    text-transform: initial;
     font-size: large;
 }
+a:hover {
+    color:antiquewhite;
+}
 
-li.nav-item {
+li.nav-item:not(:last-child) {
     margin-left:2px;
     float:left;
     display: inline;
@@ -27,6 +30,7 @@ strong {
 
 nav {
     opacity: 80%;
+    background: linear-gradient(black,gray);
 }
 
 div.container {
