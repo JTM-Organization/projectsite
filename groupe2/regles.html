@@ -22,27 +22,52 @@
             <a class="nav-item nav-link" href="code.html">Code</a>
 
           </div>
-          <form class="form-inline mr-auto" target="_self">
-          </form><a class="btn btn-light action-button" role="button" href="#">Connexion</a></div>
-          <a class="btn btn-info action-button" role="button" href="#">Inscription</a></div>
         </div>
       </nav>
     <div class="h1">
         Les règles du jeu
     </div>
     <div class="container">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <p>Chaque joueur commence avec un plateau de dimension 10x10 (avec des coordonnées allant de 1 à 10 horizontalement et de A à J verticalement) ainsi que plusieurs bateaux :</p>
+        <li>1 porte avion (5 cases)</li>
+        <li>1 croiseur (4 cases)</li>
+        <li>1 contre torpilleur (3 cases)</li>
+        <li>1 sous-marin (3 cases)</li>
+        <li>1 torpilleur (2 cases)</li> <br>
+      <p>Au début du jeu, chaque joueur place à sa guise tous les bateaux sur sa grille de façon stratégique.
+        Le but étant de compliquer au maximum la tache de son adversaire, c’est-à-dire détruire tous vos navires.
+        Bien entendu, le joueur ne voit pas la grille de son adversaire. Une fois tous les bateaux en jeu, la partie peut commencer...</p>
+    <h2>Déroulement du jeu</h2>
+      <p>Un à un, les joueurs se tire dessus en donnant des coordonnées correspondant à une case du plateau adverse afin de détruire les navires ennemis.</p>
+      <p>Prenons un exemple : </p>
+      <p>Si un joueur tire sur un navire ennemi, l’adversaire doit le signaler en disant « touché ».
+        Il ne peut pas jouer deux fois de suite et doit attendre le tour de l’autre joueur afin de rejouer.
+        Si le joueur ne touche pas de navire, l’adversaire le signale en disant « raté ».
+        Si le navire est entièrement touché l’adversaire doit dire « touché coulé ».</p>
+      <p>Les pions blancs et des pions rouges servent à se souvenir des tirs ratés (blancs) et les tirs touchés (rouges).
+        Il est indispensable de les utiliser pour ne pas tirer deux fois au même endroit et donc ne pas perdre de temps inutilement.
+        Ces pions se placent sur la grille du dessus.</p>
+    <h2>Comment gagner ?</h2>
+      <p>Une partie de bataille navale se termine simplement lorsque l’un des joueurs n’a plus de navires (c'est-à-dire lorsqu'ils sont tous « touchés coulés »).
+        Pour gagner plus rapidement, vous pouvez jouer vos tirs en croix, étant donné que le plus petit navire fait deux cases alors vous ne pourrez éviter aucun
+        autre bateau sur votre chemin. Cette méthode est très efficace car elle est purement logique.
+      </p>
+    </div>
+
     </div>
     <div class="footer-basic">
        <footer>
            <ul class="list-inline">
-               <li class="list-inline-item"><a href="histoire.html">Histoire</a></li>
-               <li class="list-inline-item"><a href="manuel.html">Manuel</a></li>
-               <li class="list-inline-item"><a href="regles.html">Règles</a></li>
-               <li class="list-inline-item"><a href="code.html">Code</a></li>
+               <li class="list-inline-item"><a href="#"> A propos</a></li>
                <li class="list-inline-item"><a href="#">Confidentialité</a></li>
+                 <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+               <section class="mb-4">
+               <a class="btn btn-primary btn-floating m-1" style="background-color: white;"href="https://github.com/JTM-Organization"role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+</svg></a>
+               </section>
            </ul>
-           <p class="copyright">JTM-Organization 2022 ©</p>
+           <p class="copyright">JTM-Organization 2022 © -Tous droits reservés </p>
        </footer>
    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
