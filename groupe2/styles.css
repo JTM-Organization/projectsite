@@ -4,11 +4,31 @@ padding-top: 50px;
 padding-bottom: 50px;
 }
 
+@font-face {
+    font-family: 'army_rustregular';
+    src: url('army_rust-webfont.woff2') format('woff2'),
+         url('army_rust-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'pervitina_dexregular';
+    src: url('pervitina-dex-ffp-webfont.woff2') format('woff2'),
+         url('pervitina-dex-ffp-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .navbar a{
   color: orange !important;
+  font-family: 'army_rustregular', sans-serif;
+  font-size: 20px;
 }
 .navbar h2{
-  color : pink !important;
+  color : orange !important;
+  font-family: 'pervitina_dexregular', sans-serif;
+  font-size: 30px;
 }
 .h1{
   color:red;
