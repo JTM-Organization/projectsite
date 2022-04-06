@@ -53,8 +53,8 @@ h1 {
 }
 
 h2 {
-    padding: 30px 0px 20px 20px;
-    font-size: xx-large;
+    padding: 20px 0px 20px 20px;
+    font-size: 28px;
 }
 
 p {
@@ -162,7 +162,6 @@ p#fin {
 }
   
 .footer-basic ul a:hover {
-
     color:antiquewhite;
 }
   
@@ -224,4 +223,10 @@ form li .field-select {
     border-color: orange;
     margin-top: 10px;
     padding: 5px 15px;
+    transition: all 0.25s;
+}
+
+.formstyle input[type=submit]:hover {
+    background-color: antiquewhite;
+    border-color: antiquewhite;
 }
