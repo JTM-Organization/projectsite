@@ -33,22 +33,23 @@ padding-bottom: 50px;
 
 .navbar a{
   color: orange !important;
-  font-family: '#', sans-serif;
-  font-size: 20px;
+  font-family: 'Redemption', sans-serif;
+  font-size: 35px;
 }
 .navbar h2{
   color : orange !important;
-  font-family: '#', sans-serif;
-  font-size: 30px;
+  font-family: 'BroshK', sans-serif;
+  font-size: 60px;
 }
 .h1{
-  color:red;
-    font-family: '#', sans-serif;
+  color:lawngreen;
+    font-family: 'Redemption', sans-serif;
 }
 
 h2{
   text-align: center;
   color:cyan;
+  font-family: 'Redemption', serif;
 }
 
 .footer-basic{
@@ -91,4 +92,42 @@ h2{
   font-size:13px;
   color:#736457;
   margin-bottom:0;
+}
+
+@font-face {
+    font-family:'Redemption';
+    src: url('fonts/Redemption Regular.eot');
+	src: url('fonts/Redemption Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Redemption Regular.woff2') format('woff2'),
+		url('fonts/Redemption Regular.woff') format('woff'),
+		url('fonts/Redemption Regular.svg#Redemption Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-007A;
+}
+
+@font-face {
+    font-family:'Redemption';
+    src: url('fonts/Redemption Italic.eot');
+	src: url('fonts/Redemption Italic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Redemption Italic.woff2') format('woff2'),
+		url('fonts/Redemption Italic.woff') format('woff'),
+		url('fonts/Redemption Italic.svg#Redemption Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-007A;
+}
+@font-face {
+    font-family:'BroshK';
+    src: url('fonts/BroshK.eot');
+	src: url('fonts/BroshK.eot?#iefix') format('embedded-opentype'),
+		url('fonts/BroshK.woff2') format('woff2'),
+		url('fonts/BroshK.woff') format('woff'),
+		url('fonts/BroshK.svg#BroshK') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-1E9E;
 }
