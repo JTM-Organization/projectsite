@@ -14,9 +14,9 @@ padding-bottom: 50px;
   padding-left: 10px;
 }
 .container{
-  background-color: white;
+  background-color: beige;
   opacity: 95%;
-  border: 10px double orange;
+  border: 10px double darkcyan;
   margin-top: 20px;
   margin-bottom: 15px;
 }
@@ -32,18 +32,23 @@ padding-bottom: 50px;
 
 
 .navbar a{
-  color: orange !important;
+  color: darkcyan !important;
   font-family: 'Redemption', sans-serif;
   font-size: 35px;
 }
 .navbar h2{
-  color : orange !important;
+  color : darkcyan !important;
   font-family: 'BroshK', sans-serif;
   font-size: 60px;
 }
 .h1{
-  color:lawngreen;
+  color:white;
     font-family: 'Redemption', sans-serif;
+}
+h1{
+  color:black;
+    font-family: 'Redemption', sans-serif;
+    text-align: center;
 }
 
 h2{
@@ -93,7 +98,13 @@ h2{
   color:#736457;
   margin-bottom:0;
 }
-
+img.imgmail{
+  width: 110px;
+  height: 110px;
+}
+footer .list-inline-item{
+  font-family: 'Redemption', sans-serif;
+}
 @font-face {
     font-family:'Redemption';
     src: url('fonts/Redemption Regular.eot');
@@ -106,7 +117,6 @@ h2{
     font-stretch: normal;
     unicode-range: U+0020-007A;
 }
-
 @font-face {
     font-family:'Redemption';
     src: url('fonts/Redemption Italic.eot');

@@ -10,6 +10,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img src="icone.png" alt="icone" height="70">
         <a class="navbar-brand" href="accueil.html">Bataille Navale</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -27,33 +28,68 @@
         <div class="container">
       <h1>Nous contacter</h1>
         <form action="exo1.php" method="post" enctype="multipart/form-data">
-            <div>
-                    <input type="radio" name="choix" id="choix1" value="1" tabindex="1">
-                <label for="choix1"> Monsieur </label> <br>
-                    <input type="radio" name="choix" id="choix2" value="2" tabindex="2">
-                <label for="choix2"> Madame </label> <br>
-                    <input type="radio" name="choix" id="choix3" value="3" tabindex="3">
-                <label for="choix3"> Mademoiselle </label> <br>
-            </div>
+      <section class="mb-4"X>
+          <p class="text-center w-responsive mx-auto mb-5">Vous avez une question ? N'hésitez pas à la poser ici et nous vous appoprterons une réponse dans un bref délai..</p>
+      
+          <div class="row">
+              <div class="col-md-9 mb-md-0 mb-5">
+                  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+    
+                      <div class="row">
+    
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="name" name="name" class="form-control">
+                                  <label for="name" class="">Votre nom</label>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="email" name="email" class="form-control">
+                                  <label for="email" class="">Votre email</label>
+                              </div>
+                          </div>
+                  
+                      </div>
+      
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="subject" name="subject" class="form-control">
+                                  <label for="subject" class="">Subject</label>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+        
+                          <div class="col-md-12">
+      
+                              <div class="md-form">
+                                  <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                  <label for="message">Votre message</label>
+                              </div>
+      
+                          </div>
+                      </div>
 
-            <div>
-                <label for="nom"> Sasir votre nom : </label>
-                    <input type="text" name="Monnom" id="nom" placeholder="Votre nom ici" required> <br>
-                <label for="prenom"> Sasir votre prénom : </label>
-                    <input type="text" name="Monprenom" id="prenom" placeholder="Votre prénom ici" required> <br>
-                <label for="mail"> Sasir votre adresse de messagerie : </label>
-                    <input type="email" name="Monmail" id="mail" placeholder="Votre mail ici" required>
-            </div>
-
-            <fieldset>
-                <legend> Votre message </legend>
-                    <div>
-                        <textarea name="texte" id="texte" cols="140" rows="10"> </textarea> <br>
-                    </div>
-            </fieldset>
-
-
-            <input type="submit" value="Envoyer">
+                  </form>
+      
+                  <div class="text-center text-md-left">
+                      <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Envoyer</a>
+                  </div>
+                  <div class="status"></div>
+              </div>
+              <div class="col-md-3 text-center">
+                  <ul class="list-unstyled mb-0">
+                      <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <img class="imgmail" src="mail.jpg" alt="Mail">
+                          <p>jtmorganization1@gmail.com</p>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      
+      </section>
         </form>
 </div>
 
@@ -61,7 +97,7 @@
    <footer>
        <ul class="list-inline">
            <li class="list-inline-item"><a href="#"> A propos</a></li>
-           <li class="list-inline-item"><a href="#">Confidentialité</a></li>
+           <li class="list-inline-item"><a href="#">Confidentialite</a></li>
              <li class="list-inline-item"><a href="contact.html">Contact</a></li>
            <section class="mb-4">
            <a class="btn btn-primary btn-floating m-1" style="background-color: white;"href="https://github.com/JTM-Organization"role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
