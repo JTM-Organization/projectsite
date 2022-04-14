@@ -1,0 +1,148 @@
+body {
+  background-image: url(img/fond.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.h1{
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.navbar-brand{
+  padding-left: 10px;
+}
+.container{
+  background-color: white;
+  opacity: 95%;
+  border: 10px double darkcyan;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.container img{
+  width: 350px;
+  height: 350px;
+}
+.container figcaption{
+  position: relative;
+  text-align: center;
+}
+.container figure img:hover{
+  width: 600px;
+  height: 600px;
+  transition:  width 2s, height 2s; transform 2s;
+}
+.container img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar a{
+  color: darkcyan !important;
+  font-family: 'Redemption', sans-serif;
+  font-size: 35px;
+}
+.navbar a:hover{
+  color: cyan !important
+}
+.navbar h2{
+  color : darkcyan !important;
+  font-family: 'BroshK', sans-serif;
+  font-size: 60px;
+}
+.h1{
+  color:white;
+    font-family: 'Redemption', sans-serif;
+    text-align: center;
+}
+
+h1{
+  color:black;
+    font-family: 'Redemption', sans-serif;
+    text-align: center;
+}
+h2{
+  text-align: center;
+  color:cyan;
+  font-family: 'Redemption', serif;
+}
+.footer-basic{
+  position: relative;
+  opacity: 90%;
+}
+.footer-basic {
+  padding:15px ;
+  background-color:#bcbcbc;
+  color:#736457;
+}
+.footer-basic ul {
+  position:
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+.footer-basic li {
+  padding:0 10px;
+}
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+.footer-basic ul a:hover {
+  color:brown;
+}
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#736457;
+  margin-bottom:0;
+}
+img.imgmail{
+  width: 110px;
+  height: 110px;
+}
+footer .list-inline-item{
+  font-family: 'Redemption', sans-serif;
+}
+@font-face {
+    font-family:'Redemption';
+    src: url('fonts/Redemption Regular.eot');
+	src: url('fonts/Redemption Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Redemption Regular.woff2') format('woff2'),
+		url('fonts/Redemption Regular.woff') format('woff'),
+		url('fonts/Redemption Regular.svg#Redemption Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-007A;
+}
+@font-face {
+    font-family:'Redemption';
+    src: url('fonts/Redemption Italic.eot');
+	src: url('fonts/Redemption Italic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Redemption Italic.woff2') format('woff2'),
+		url('fonts/Redemption Italic.woff') format('woff'),
+		url('fonts/Redemption Italic.svg#Redemption Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-007A;
+}
+@font-face {
+    font-family:'BroshK';
+    src: url('fonts/BroshK.eot');
+	src: url('fonts/BroshK.eot?#iefix') format('embedded-opentype'),
+		url('fonts/BroshK.woff2') format('woff2'),
+		url('fonts/BroshK.woff') format('woff'),
+		url('fonts/BroshK.svg#BroshK') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-1E9E;
+}
